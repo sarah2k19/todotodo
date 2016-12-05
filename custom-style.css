@@ -197,12 +197,3 @@ ul.todo li .buttons button.remove:hover svg .fill {
     }
   }
 }
-
-@media (min-width: 0px) {
-  @media (max-width: 767px) {
-    header button {
-        top:90px;
-        right:30px;
-      }
-  }
-}
