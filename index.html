@@ -36,6 +36,7 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="col-lg-8 col-lg-offset-2 col-md-12 col-md-offset-1">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -56,17 +57,18 @@
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
-        </div>
+          </div>
         <!-- /.container -->
+      </div>
     </nav>
 
     <!-- Page Content -->
     <div class="container">
 
         <div class="row">
-            <div class="col-lg-12 text-center">
-                <h1>To-Do list</h1>
-                <p class="lead">Add an event to your list, and complete the event by tapping on the element!</p>
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
+              <h1>To-Do list</h1>
+                <p class="lead">Type your activity and click on the button to add!</p>
 	              <header>
                      <input type="text" placeholder="Add an activity to your list.." id="checkListItem"/>
                      <button id="add">
@@ -77,9 +79,6 @@
 		    <div class="list">
             <!-- A new and unifinished item -->
 			      <ul class="todo" id="todo"></ul>
-
-            <!-- A completed item -->
-            <ul class="todo" id="finished"></ul>
 		    </div>
       </div>
         <!-- /.row -->
@@ -93,6 +92,10 @@
 
     <!-- Custom jQuery -->
     <script type='text/javascript' src='jqweerie.js'></script>
+
+    <!-- jQuery UI for sortable -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
