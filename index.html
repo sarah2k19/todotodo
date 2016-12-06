@@ -46,13 +46,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">HOME</a>
+                <a class="navbar-brand" href="index.html">HOME</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">About this website</a>
+                        <a href="about-this-page.html">About this website</a>
                     </li>
                 </ul>
             </div>
@@ -67,15 +67,18 @@
 
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
-              <h1>To-Do list</h1>
-                <p class="lead">Type your activity and click on the button to add!</p>
+            <div class="box">
+              <div id="title">
+              <h1>Things to do</h1>
+            </div>
+          </div>
+        <br>
 	              <header>
                      <input type="text" placeholder="Add an activity to your list.." id="checkListItem"/>
                      <button id="add">
                      		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><path class="fill" d="M16,8c0,0.5-0.5,1-1,1H9v6c0,0.5-0.5,1-1,1s-1-0.5-1-1V9H1C0.5,9,0,8.5,0,8s0.5-1,1-1h6V1c0-0.5,0.5-1,1-1s1,0.5,1,1v6h6C15.5,7,16,7.5,16,8z"/></g></svg>
                      </button>
                 </header>
-
 		    <div class="list">
             <!-- A new and unifinished item -->
 			      <ul class="todo" id="todo"></ul>
