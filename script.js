@@ -28,7 +28,8 @@
 		item.innerText = text;
 		
 		localStorage.setItem('key', item.innerText);
-                console.log(localStorage.getItem('key'));
+                var storage = (console.log(localStorage.getItem('key')));
+                document.createElement(storage);
 
 		var buttons = document.createElement('div');
 		buttons.classList.add('buttons');
