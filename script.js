@@ -26,6 +26,9 @@
 
 		var item = document.createElement('li');
 		item.innerText = text;
+		
+		localStorage.setItem('key', item.innerText);
+                console.log(localStorage.getItem('key'));
 
 		var buttons = document.createElement('div');
 		buttons.classList.add('buttons');
