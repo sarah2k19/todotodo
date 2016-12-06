@@ -214,7 +214,6 @@ ul.todo li .buttons button.remove svg .fill {
 }
 
 ul.todo li .buttons button.remove:hover svg .fill {
-/*  fill:#e85656;*/
   fill:#ff0000;
 }
 
